@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="oceanman.js"></script>
+    </head>
+    <body>
+        <div align="center">
+            <audio src="om.mp3" autoplay id="song" volume="0.0"></audio>
+            <p>You have listened to Ocean Man <span id="loops">0 times!</span></p>
+            <p>
+                <input type="range" max="99"></input>
+                <span>Volume: <span id="level">50</span>%</span>
+                <p id="test"></p>
+            </p>
+            <p>
+                <button id="enter">Enter</button>
+                <button id="end" hidden="true">Stop Music</button>
+            </p>
+            <p>
+                Your number is: <span id="number"></span>
+            </p>
+        </div>
+    </body>
+</html>
